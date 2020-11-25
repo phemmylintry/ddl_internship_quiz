@@ -7,7 +7,13 @@ import sys
 # Complete the simpleArraySum function below.
 #
 def simpleArraySum(ar):
-    return sum(ar)
+    #
+    # Write your code here.
+    #
+    sum_of_array = 0
+    for i in ar:
+        sum_of_array += i
+    return sum_of_array 
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
